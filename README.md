@@ -182,13 +182,13 @@ New-ark 支持访客访问模式。管理员可控制哪些页面、分组和网
 ## 安装要求
 
 - 飞牛 fnOS 系统
-- x86_64 架构设备
+- x86_64 或 ARM64 架构设备
 - 一个未被占用的运行端口
 - 建议使用现代浏览器访问
 
 ## 安装步骤
 
-1. 前往 [Releases](https://github.com/yb1203/new-ark-release/releases) 页面下载最新 `.fpk` 安装包。
+1. 前往 [v1.0.2 发布页](https://github.com/yb1203/new-ark-release/releases/tag/v1.0.2)，x86_64 设备下载 `newark-1.0.2-x86.fpk`，ARM64 设备下载 `newark-1.0.2-arm.fpk`。
 2. 打开飞牛 NAS 管理后台，进入「应用中心」。
 3. 选择「手动安装」，上传下载的 FPK 文件。
 4. 根据安装向导填写运行端口。
@@ -205,9 +205,9 @@ http://NAS地址:运行端口
 
 # 版本说明
 
-当前正式版本：`v1.0.1`
+当前正式版本：`v1.0.2`
 
-`v1.0.1` 修复页面分组筛选、图库预览与图标裁剪问题，并改进飞牛升级时的数据保留和备份恢复行为。安装包及详细更新内容见 [v1.0.1 发布页](https://github.com/yb1203/new-ark-release/releases/tag/v1.0.1)。
+`v1.0.2` 新增 ARM64 安装包，并改进通过代理访问时的内网优先跳转。安装包、校验值及详细更新内容见 [v1.0.2 发布页](https://github.com/yb1203/new-ark-release/releases/tag/v1.0.2)。
 
 ---
 
