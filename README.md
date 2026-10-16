@@ -188,7 +188,7 @@ New-ark 支持访客访问模式。管理员可控制哪些页面、分组和网
 
 ## 安装步骤
 
-1. 前往 [v1.0.3 发布页](https://github.com/yb1203/new-ark-release/releases/tag/v1.0.3)，x86_64 设备下载 `newark-1.0.3-x86.fpk`，ARM64 设备下载 `newark-1.0.3-arm.fpk`。
+1. 前往 [v1.0.0 正式版发布页](https://github.com/yb1203/new-ark-release/releases/tag/v1.0.0)，x86_64 设备下载 `newark-1.0.0-x86.fpk`，ARM64 设备下载 `newark-1.0.0-arm.fpk`。
 2. 打开飞牛 NAS 管理后台，进入「应用中心」。
 3. 选择「手动安装」，上传下载的 FPK 文件。
 4. 根据安装向导填写运行端口。
@@ -205,9 +205,9 @@ http://NAS地址:运行端口
 
 # 版本说明
 
-当前正式版本：`v1.0.3`
+当前正式版本：`v1.0.0`
 
-`v1.0.3` 改进网站卡片的内外网地址选择：由当前设备预先探测内网或专网地址，点击时直接打开目标网站。安装包、校验值及详细更新内容见 [v1.0.3 发布页](https://github.com/yb1203/new-ark-release/releases/tag/v1.0.3)。
+这是 New-ark 的首个正式版本。安装包、校验值及功能说明见 [v1.0.0 发布页](https://github.com/yb1203/new-ark-release/releases/tag/v1.0.0)。此前安装 v1.0.3 测试版的用户，请先导出并下载备份，再卸载旧版、安装正式版并导入备份；飞牛可能不允许直接降级。
 
 ---
 
